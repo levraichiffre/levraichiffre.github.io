@@ -1,0 +1,42 @@
+{
+ "_aide": "Mis à jour par les tâches vidéo : ajoute EN TÊTE le chiffre clé et la vidéo du jour ; garde 10 chiffres et 3 vidéos maximum. Chiffres sourcés uniquement.",
+ "chiffres": [
+  {
+   "n": "20/11",
+   "t": "Le jour où ton paiement en 4 fois devient officiellement un crédit.",
+   "s": "INC, ordonnance n° 2025-880"
+  },
+  {
+   "n": "2 190 €",
+   "t": "La moitié des salariés du privé gagne moins que ça par mois (net, temps plein).",
+   "s": "Insee, 2024"
+  },
+  {
+   "n": "81 538 €",
+   "t": "100 € par mois pendant 30 ans à 5 %/an (hypothèse) : 36 000 € versés. Rien n'est garanti.",
+   "s": "calcul, hypothèse 5 %/an"
+  },
+  {
+   "n": "+3,4 %",
+   "t": "La hausse des prix sur un an en octobre 2026, surtout à cause de l'énergie.",
+   "s": "Insee, estimation provisoire"
+  }
+ ],
+ "videos": [
+  {
+   "n": "06",
+   "titre": "Payer en 4 fois devient un crédit le 20 novembre",
+   "lien": "https://www.tiktok.com/@le_vrai_chiffre"
+  },
+  {
+   "n": "05",
+   "titre": "Salaire moyen 2 733 € : pourquoi ce chiffre te ment",
+   "lien": "https://www.tiktok.com/@le_vrai_chiffre"
+  },
+  {
+   "n": "04",
+   "titre": "100 € par mois pendant 30 ans : combien ça fait vraiment ?",
+   "lien": "https://www.tiktok.com/@le_vrai_chiffre"
+  }
+ ]
+}

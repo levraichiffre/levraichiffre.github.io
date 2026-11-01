@@ -72,7 +72,7 @@ nav a:active,#fact:active{transform:translate(4px,4px)!important;box-shadow:2px 
       <span style="font-size: 22px; font-weight: 700; letter-spacing: -.02em">Les dernières</span>
       <span style="font-family: 'Space Mono', monospace; font-size: 12px; color: #5f584e; letter-spacing: .1em">À VOIR SUR TIKTOK</span>
     </div>
-    <div style="margin-top: 16px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px">
+    <div id="latest" style="margin-top: 16px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px">
       <a href="https://www.tiktok.com/@le_vrai_chiffre" target="_blank" rel="noopener" style="display: flex; flex-direction: column; justify-content: space-between; aspect-ratio: 9 / 14; padding: 12px; background: #fbf8f2; border: 2px solid #1c1a17; box-shadow: 4px 5px 0 #1c1a17; text-decoration: none; color: #1c1a17">
         <span style="font-family: 'Space Mono', monospace; font-size: 11px; color: #5f584e">N° 06</span>
         <span style="font-size: 15px; font-weight: 700; line-height: 1.15">Payer en 4 fois devient un <span style="color: #a3431f">crédit</span></span>
@@ -92,10 +92,17 @@ nav a:active,#fact:active{transform:translate(4px,4px)!important;box-shadow:2px 
   </main>
 </div>
 <script>
-var F=[["2 190 €","La moitié des salariés du privé gagne moins que ça par mois (net, temps plein).","Insee, 2024"],
-["+3,4 %","La hausse des prix sur un an en octobre 2026, surtout à cause de l'énergie.","Insee, estimation provisoire"],
-["20/11","Le jour où ton paiement en 4 fois devient officiellement un crédit.","INC, ordonnance n° 2025-880"]],i=0;
-document.getElementById("fact").addEventListener("click",function(){i=(i+1)%F.length;
-document.getElementById("fn").textContent=F[i][0];document.getElementById("ft").textContent=F[i][1];
-document.getElementById("fs").textContent=F[i][2];document.getElementById("fpos").textContent=(i+1)+"/"+F.length;});
+var F=[["2 190 €","La moitié des salariés du privé gagne moins que ça par mois (net, temps plein).","Insee, 2024"]],i=0;
+function show(){var f=F[i];document.getElementById("fn").textContent=f[0];document.getElementById("ft").textContent=f[1];
+document.getElementById("fs").textContent=f[2];document.getElementById("fpos").textContent=(i+1)+"/"+F.length;}
+document.getElementById("fact").addEventListener("click",function(){i=(i+1)%F.length;show();});
+function esc(t){var d=document.createElement("div");d.textContent=t;return d.innerHTML;}
+fetch("data.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(d){
+ if(d.chiffres&&d.chiffres.length){F=d.chiffres.map(function(c){return [c.n,c.t,c.s];});i=0;show();}
+ if(d.videos&&d.videos.length){var h="";d.videos.slice(0,3).forEach(function(v){
+  h+='<a href="'+(v.lien||"https://www.tiktok.com/@le_vrai_chiffre")+'" target="_blank" rel="noopener" style="display:flex;flex-direction:column;justify-content:space-between;aspect-ratio:9/14;padding:12px;background:#fbf8f2;border:2px solid #1c1a17;box-shadow:4px 5px 0 #1c1a17;text-decoration:none;color:#1c1a17">'
+   +'<span style="font-family:\'Space Mono\',monospace;font-size:11px;color:#5f584e">N° '+esc(v.n)+'</span>'
+   +'<span style="font-size:15px;font-weight:700;line-height:1.15">'+esc(v.titre)+'</span></a>';});
+  document.getElementById("latest").innerHTML=h;}
+}).catch(function(){});
 </script></body></html>
