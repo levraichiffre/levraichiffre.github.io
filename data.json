@@ -1,20 +1,41 @@
 {
- "_aide": "Mis à jour par les tâches vidéo : ajoute EN TÊTE le chiffre clé et la vidéo du jour ; garde 10 chiffres et 3 vidéos maximum. Chiffres sourcés uniquement.",
+ "_aide": "Mis à jour chaque nuit par la tâche « Stats et liens » : chiffres = un chiffre clé sourcé par vidéo publiée (champ v = N°), 10 maximum, le plus récent en tête ; videos = les 3 dernières vidéos PUBLIÉES, lien direct dès qu'il est connu.",
  "chiffres": [
+  {
+   "n": "12 000 €",
+   "t": "Ce que peut te coûter en 10 ans une augmentation de 100 € net par mois jamais demandée (exemple).",
+   "s": "calcul, net avant impôt",
+   "v": "09"
+  },
+  {
+   "n": "4 334 €",
+   "t": "À partir de ce salaire net par mois, tu fais partie des 10 % les mieux payés du privé (temps plein).",
+   "s": "Insee, 2024",
+   "v": "08"
+  },
+  {
+   "n": "1 043 €",
+   "t": "Le minimum vieillesse (Aspa) d'une personne seule en 2026. Une sur deux qui y a droit ne le touche pas.",
+   "s": "Cnav 2026 ; DREES (2016)",
+   "v": "07"
+  },
   {
    "n": "20/11",
    "t": "Le jour où ton paiement en 4 fois devient officiellement un crédit.",
-   "s": "INC, ordonnance n° 2025-880"
+   "s": "INC, ordonnance n° 2025-880",
+   "v": "06"
   },
   {
    "n": "2 190 €",
    "t": "La moitié des salariés du privé gagne moins que ça par mois (net, temps plein).",
-   "s": "Insee, 2024"
+   "s": "Insee, 2024",
+   "v": "05"
   },
   {
    "n": "81 538 €",
    "t": "100 € par mois pendant 30 ans à 5 %/an (hypothèse) : 36 000 € versés. Rien n'est garanti.",
-   "s": "calcul, hypothèse 5 %/an"
+   "s": "calcul, hypothèse 5 %/an",
+   "v": "04"
   },
   {
    "n": "+3,4 %",
@@ -24,19 +45,19 @@
  ],
  "videos": [
   {
-   "n": "06",
-   "titre": "Payer en 4 fois devient un crédit le 20 novembre",
+   "n": "08",
+   "titre": "Top 10 % des salaires : le vrai seuil",
    "lien": "https://www.tiktok.com/@le_vrai_chiffre"
   },
   {
-   "n": "05",
-   "titre": "Salaire moyen 2 733 € : pourquoi ce chiffre te ment",
-   "lien": "https://www.tiktok.com/@le_vrai_chiffre/video/7702857245985426721"
+   "n": "07",
+   "titre": "Retraite : 343 € de plus par mois… et Tico refuse",
+   "lien": "https://www.tiktok.com/@le_vrai_chiffre"
   },
   {
-   "n": "04",
-   "titre": "100 € par mois pendant 30 ans : combien ça fait vraiment ?",
-   "lien": "https://www.tiktok.com/@le_vrai_chiffre/video/7702756084632587553"
+   "n": "06",
+   "titre": "Payer en 4 fois devient un crédit le 20 novembre",
+   "lien": "https://www.tiktok.com/@le_vrai_chiffre"
   }
  ]
 }
