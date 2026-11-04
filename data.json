@@ -2,6 +2,12 @@
  "_aide": "Mis à jour chaque nuit par la tâche « Stats et liens » : chiffres = un chiffre clé sourcé par vidéo publiée (champ v = N°), 10 maximum, le plus récent en tête ; videos = les 3 dernières vidéos PUBLIÉES, lien direct dès qu'il est connu.",
  "chiffres": [
   {
+   "n": "11 €",
+   "t": "Privé : sur 700 € hors charges (exemple), ta révision de loyer, c'est 11 € par mois au plus, parfois zéro.",
+   "s": "Insee, IRL 3e trim. 2026",
+   "v": "12"
+  },
+  {
    "n": "5,5 c",
    "t": "Par Go : la taxe adoptée en 1re lecture, pas une loi (au 03/11). Tes « 11 € sur GTA 6 » ? Un calcul, pas un prix.",
    "s": "Amendement I-1358, PLF 2027, 2026",
@@ -54,15 +60,14 @@
    "t": "Sur un salaire médian de 2 190 €, un locataire du privé laisse déjà 556 € par mois dans son logement.",
    "s": "Insee, 2024",
    "v": "03"
-  },
-  {
-   "n": "2,4 %",
-   "t": "La hausse des prix sur un an en août 2026 : 1 000 € qui dorment sur ton compte courant rapportent 0 %.",
-   "s": "Insee, août 2026",
-   "v": "01"
   }
  ],
  "videos": [
+  {
+   "n": "12",
+   "titre": "Ton loyer augmente ? 3 choses à vérifier avant de payer la hausse",
+   "lien": "https://www.tiktok.com/@le_vrai_chiffre"
+  },
   {
    "n": "11",
    "titre": "11 € de taxe sur GTA 6 ? Ton pote a lu le titre, pas le texte",
@@ -72,11 +77,6 @@
    "n": "10",
    "titre": "À découvert le 15 ? Ta prime d'activité dort peut-être",
    "lien": "https://www.tiktok.com/@le_vrai_chiffre/video/7703946711458172182"
-  },
-  {
-   "n": "09",
-   "titre": "Jamais demandé d'augmentation ? Ce silence peut coûter 12 000 €",
-   "lien": "https://www.tiktok.com/@le_vrai_chiffre/video/7703615812833266976"
   }
  ]
 }
