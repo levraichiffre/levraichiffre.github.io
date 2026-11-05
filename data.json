@@ -2,6 +2,12 @@
  "_aide": "Mis à jour chaque nuit par la tâche « Stats et liens » : chiffres = un chiffre clé sourcé par vidéo publiée (champ v = N°), 10 maximum, le plus récent en tête ; videos = les 3 dernières vidéos PUBLIÉES, lien direct dès qu'il est connu.",
  "chiffres": [
   {
+   "n": "≈ 95 €",
+   "t": "Privé, 2 000 € brut : train supprimé par une grève, une journée perdue peut te coûter environ 95 € brut (nov. 2026).",
+   "s": "service-public.fr F21019 ; calcul 2026",
+   "v": "13"
+  },
+  {
    "n": "11 €",
    "t": "Privé : sur 700 € hors charges (exemple), ta révision de loyer, c'est 11 € par mois au plus, parfois zéro.",
    "s": "Insee, IRL 3e trim. 2026",
@@ -54,15 +60,14 @@
    "t": "100 € par mois pendant 30 ans à 5 %/an (hypothèse) : 36 000 € versés. Rien n'est garanti.",
    "s": "calcul, hypothèse 5 %/an",
    "v": "04"
-  },
-  {
-   "n": "556 €",
-   "t": "Sur un salaire médian de 2 190 €, un locataire du privé laisse déjà 556 € par mois dans son logement.",
-   "s": "Insee, 2024",
-   "v": "03"
   }
  ],
  "videos": [
+  {
+   "n": "13",
+   "titre": "Train supprimé par une grève : ta paie peut sauter. Que faire ?",
+   "lien": "https://www.tiktok.com/@le_vrai_chiffre"
+  },
   {
    "n": "12",
    "titre": "Ton loyer augmente ? 3 choses à vérifier avant de payer la hausse",
@@ -72,11 +77,6 @@
    "n": "11",
    "titre": "11 € de taxe sur GTA 6 ? Ton pote a lu le titre, pas le texte",
    "lien": "https://www.tiktok.com/@le_vrai_chiffre/video/7703998623939382560"
-  },
-  {
-   "n": "10",
-   "titre": "À découvert le 15 ? Ta prime d'activité dort peut-être",
-   "lien": "https://www.tiktok.com/@le_vrai_chiffre/video/7703946711458172182"
   }
  ]
 }
